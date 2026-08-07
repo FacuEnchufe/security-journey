@@ -1,0 +1,8 @@
+# Nmap 7.99 scan initiated Thu Aug  6 21:30:56 2026 as: /usr/lib/nmap/nmap --privileged -sC -sV -Pn -oN nmap_redeemer 10.129.238.63
+Nmap scan report for 10.129.238.63
+Host is up (0.15s latency).
+All 1000 scanned ports on 10.129.238.63 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug  6 21:31:01 2026 -- 1 IP address (1 host up) scanned in 5.42 seconds

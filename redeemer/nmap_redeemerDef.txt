@@ -1,0 +1,13 @@
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-08-06 21:39 -0400
+Stats: 0:00:03 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 0.22% done
+Warning: 10.129.238.63 giving up on port because retransmission cap hit (2).
+Stats: 0:02:00 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 91.35% done; ETC: 21:41 (0:00:11 remaining)
+Nmap scan report for 10.129.238.63
+Host is up (0.15s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT     STATE SERVICE
+6379/tcp open  redis
+
+Nmap done: 1 IP address (1 host up) scanned in 137.28 seconds
