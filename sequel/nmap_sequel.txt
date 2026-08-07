@@ -1,0 +1,25 @@
+Host is up (0.15s latency).
+
+Not shown: 65511 closed tcp ports (reset)
+
+PORT      STATE    SERVICE
+
+57/tcp    filtered priv-term
+
+992/tcp   filtered telnets
+
+1211/tcp  filtered groove-dpp
+
+2718/tcp  filtered pn-requester2
+
+3306/tcp  open     mysql
+
+3443/tcp  filtered ov-nnm-websrv
+
+4599/tcp  filtered a17-an-an
+
+6831/tcp  filtered ambit-lm
+
+13798/tcp filtered unknown
+
+15477/tcp filtered unknown
