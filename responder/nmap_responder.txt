@@ -1,0 +1,12 @@
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-08-07 10:59 -0400
+Nmap scan report for 10.129.240.48
+Host is up (0.15s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+80/tcp   open  http
+5985/tcp open  wsman
+
+Nmap done: 1 IP address (1 host up) scanned in 15.91 seconds
+
+-Si se necesitan mas detalles simplemente hacer nmap con flags: -sC -sV de los puertos correspondientes.
+
