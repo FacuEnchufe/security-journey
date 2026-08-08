@@ -1,0 +1,17 @@
+└─$ nmap -Pn 10.129.95.187
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-08-07 18:51 -0400
+Nmap scan report for 10.129.95.187
+Host is up (0.15s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1433/tcp open  ms-sql-s
+5985/tcp open  wsman
+
+Nmap done: 1 IP address (1 host up) scanned in 5.34 seconds
+
+hacemos nmap solo con -Pn por eficiencia y encontramos multiples puertos.
+5985 es el verificador de windows, puede que haya credenciales mal protegidas.
+
